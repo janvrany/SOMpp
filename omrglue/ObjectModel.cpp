@@ -17,9 +17,9 @@
  *******************************************************************************/
 
 #include "ModronAssertions.h"
-#include "ObjectAllocationModel.hpp"
 #include "ObjectModelBase.hpp"
 #include "ObjectModel.hpp"
+#include "ObjectAllocationModel.hpp"
 
 omrobjectptr_t
 GC_ObjectModel::initializeAllocation(MM_EnvironmentBase *env, void *allocatedBytes, MM_AllocateInitialization *allocateInitialization)

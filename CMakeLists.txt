@@ -142,6 +142,8 @@ set(OMR_GLUE_SRC "${OMR_GLUE_INCLUDE}/BytecodeHelper.cpp"
 		 "${OMR_GLUE_INCLUDE}/Profiling.cpp"
 		 "${OMR_GLUE_INCLUDE}/StartupManagerImpl.cpp"
 		 "${OMR_GLUE_INCLUDE}/VerboseManagerImpl.cpp")
+
+set(OMR_JITBUILDER ON)
 	       
 add_library(omr_som_gc_glue INTERFACE)
 

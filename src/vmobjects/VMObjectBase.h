@@ -6,8 +6,10 @@
 #define MASK_BITS_ALL (MASK_OBJECT_IS_MARKED | MASK_OBJECT_IS_OLD | MASK_SEEN_BY_WRITE_BARRIER)
 
 #include "objectdescription.h"
+#include "vmobjects/ObjectFormats.h"
 
 #include <assert.h>
+#include <vector>
 
 class VMObjectBase : public VMOop {
 protected:
